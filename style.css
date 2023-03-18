@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(Opentype);
+    font-weight: normal;
+}
+ body{
+    background-color: #84E1AD;
+    margin: auto;
+    padding: auto;
+ }
+
+.centro {
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabeça {
+    background: linear-gradient(to bottom, #3CD681, #1A5C37);
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    box-shadow:0px 4px 5px  rgba(0, 0, 0, 0.349);
+}
+
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    margin-bottom: -13px;
+} 
+.segundo  {
+    color: #1A5C37;
+    font-family: 'idroid',sans-serif;
+}
+
+main {
+    background-color: white;
+    text-indent:16px ;
+    height: auto;
+    margin: auto;
+    width:80%;
+    padding: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.466);
+    
+    
+}
+
+h2.backh2 {
+    
+    background: linear-gradient( to right, #cff7e0 ,rgba(255, 255, 255, 0.692)  );
+    text-indent: 5px;
+    margin: 10px;
+    
+    
+}
+p {
+    text-align: justify;
+    text-indent: 29px;
+    padding: 10px;
+}
+
+.dentro {
+   color: #1A5C37
+}
+#droid {
+    margin: auto;
+}
+  
+h3#ultimo { background-color: #2FA866;
+
+}
+.aa {
+    margin: auto;
+    padding: auto;
+    
+}
+#ultimoh {
+    background-color: #C5EBD6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.205);
+    margin: 10px;
+    padding: -3px;
+}
+#ultimo {
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    padding: 10px;
+}
