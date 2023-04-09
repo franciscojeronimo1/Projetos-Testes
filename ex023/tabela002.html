@@ -13,6 +13,7 @@
         table {
             width: 350px;
             border-collapse: collapse;
+            position: relative;
             
         }
         td , th {
@@ -35,9 +36,16 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+            background-color: rgba(128, 128, 128, 0.363);
 
         }
-
+        thead > tr > th {
+            background-color: gray;
+            position: sticky;
+            top: -1px;
+            
+        }
+       
     </style>
 
 </head>
