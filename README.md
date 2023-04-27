@@ -1,2 +1,2 @@
 
-# Projetos que n estao 100%
+# Projetos que nao estao 100%
