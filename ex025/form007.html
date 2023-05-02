@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iperso">Personagens</label>
+            <select name="Personagens" id="iperso">
+
+             <optgroup label="Dano">
+                 <option value="NR">Naruto</option>
+                 <option value="SK">Sasuke</option>
+             </optgroup>
+             <optgroup label="Suporte">
+                 <option value="SAKU">Sakura</option>
+             </optgroup>
+            
+            </select>
+            <p>
+                <label for="iprof">Profissao: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option>Professor</option>
+                    <option >Desenvolvedor</option>
+                </datalist>
+
+                <p>
+                    <label for="iteste">teste</label>
+                    <input type="text" name="teste" id="iteste" list="a">
+                    <datalist id="a">
+                        <option value="teste">teste</option>
+                        <option value="test2">teste2</option>
+                    </datalist>
+                </p>
+                
+             
+        </p>
+        <p>
+            <label for="imsg">Menssagem</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        
+        </p>
+    </form>
+</body>
+</html>
