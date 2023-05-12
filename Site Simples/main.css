@@ -62,7 +62,7 @@ body {
 
 .light-theme {
     --bg: var(--green);
-    --fontColor: var(black);
+    --fontColor: var(rgb(255, 254, 254));
     --btnBg: var(--black);
     --btnFontColor: var(--white)
 }
